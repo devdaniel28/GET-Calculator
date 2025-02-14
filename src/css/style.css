@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Press Start 2P", system-ui;
+
+    display: flex;
+    height: 100vh;
+    gap: 25px;
+}
+
+#config {
+    background: #4a6fa5;
+    color: #ffffff;
+}
+
+#config h3 {
+    text-align: center;
+    font-size: 18pt;
+
+    margin: 50px 5px 5px;
+
+    
+}
+
+#config #feminine, #masculine {
+    background: #c0d6df;
+    border: #c0d6df 1px solid;
+    border-radius: 18px;
+
+    font-size: 8.5pt;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 700;
+
+    width: 100px;
+    height: 40px;
+
+    margin: 18px;
+    padding: 7px;
+
+    box-sizing: content-box;
+    text-align: center;
+}
+
+#config ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 5px 15px;
+}
+
+#config ul li {
+    margin: 25px 2px;
+    text-align: start;
+}
+
+#config p {
+    display: inline;
+}
+
+#kilogramas, #altura, #age {
+    background: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 18px;
+
+    font-size: 12pt;
+    font-family: "Press Start 2P", system-ui;
+
+    height: 25px;
+    width: 100px;
+
+    padding: 8px;
+
+    box-sizing: content-box;
+}
+
+#trainingdays {
+    background: #fff;
+    border: #fff 1px solid;
+    border-radius: 12px;
+
+    height: 42px;
+    width: 215px;
+
+    font-size: 9pt;
+    font-family: "Press Start 2P", system-ui;
+    color: #4f6d7a;
+
+    padding: 8px;
+}
+
+#calcular {
+    background: #4f6d7a;
+    border: #4f6d7a 1px solid;
+    border-radius: 18px;
+
+    height: 50px;
+    width: 130px;
+
+    color: #c0d6df;
+
+    font-size: 9pt;
+    font-family: "Press Start 2P", system-ui;
+
+    margin: 5px 75px;
+}
+
+#result {
+    background: #4a6fa5;
+    border: #4a6fa5 1px solid;
+    border-radius: 18px;
+
+    height: 300px;
+    width: 310%;
+}
+
+#result h2 {
+    color: #fff;
+    padding: 10px 20px;
+    
+}
