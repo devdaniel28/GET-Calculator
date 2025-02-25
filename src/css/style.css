@@ -25,23 +25,19 @@ body {
     
 }
 
-#config #feminine, #masculine {
-    background: #c0d6df;
-    border: #c0d6df 1px solid;
-    border-radius: 18px;
+#configenero {
+    
+    align-items: center;
+    margin: 20px;
+}
 
-    font-size: 8.5pt;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 700;
+#female, #masculine {
+    width: 20px;
+    height: 20px;
+}
 
-    width: 100px;
-    height: 40px;
-
-    margin: 18px;
-    padding: 7px;
-
-    box-sizing: content-box;
-    text-align: center;
+#configenero label {
+    font-size: 16pt;
 }
 
 #config ul {
@@ -49,6 +45,7 @@ body {
     text-decoration: none;
     padding: 0;
     margin: 5px 15px;
+    justify-content: center;
 }
 
 #config ul li {
@@ -104,7 +101,7 @@ body {
     font-size: 9pt;
     font-family: "Press Start 2P", system-ui;
 
-    margin: 5px 75px;
+    margin: 25px 150px;
 }
 
 #result {

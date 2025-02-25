@@ -7,12 +7,20 @@
     
     <title>GET Calculator</title>
     <link rel="stylesheet" href="src/css/style.css">
+
 </head>
 <body>
     <section id="config">
         <h3>Informação</h3>
-        <button id="masculine">Masculino</button>
-        <button id="feminine">Feminino</button>
+
+        <div id="configenero">
+            <input type="radio" id="masculine" name="genero" value="masculine">
+            <label for="masculine">Maculino</label>
+            
+            <input type="radio" id="female" name="genero" value="female" >
+            <label for="female">Feminino</label>
+        </div>
+
         <ul>
             <li>
                 <p>Kg:</p>
@@ -45,7 +53,7 @@
             <h2>Resultado aqui..</h2>
         </section>
         <footer>
-            <p>&copy; 2025 dvcDaniel</p>
+            <p>&copy; 2025 <a href="https://github.com/devdaniel28" target="_blank">dvcDaniel</a></p>
         </footer>
     </main>
 </body>
