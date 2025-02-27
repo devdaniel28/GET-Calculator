@@ -1,6 +1,6 @@
 ## Calculadora GET
 
-*Link:* getcalculator01.netlify.app
+**Link:** https://getcalculator01.netlify.app/
 
 Este projeto é uma calculadora de calorias diárias necessárias para ganhar peso, com base na Taxa Metabólica Basal (TMB) e no nível de atividade física da pessoa. Ele leva em consideração dados como peso, altura, idade e sexo, além de calcular as calorias necessárias para atingir o objetivo de ganho de peso.
 
@@ -100,4 +100,4 @@ Este projeto está licenciado sob a **Licença GNU General Public License (GPL)*
 
 --- 
 
-*Autor:* dvcDaniel(eu)
+**Autor:** dvcDaniel(eu)
