@@ -5,10 +5,12 @@ body {
     padding: 0;
 
     font-family: "Press Start 2P", system-ui;
+}
 
+#container {
     display: flex;
     height: 100vh;
-    gap: 25px;
+    gap: 25px;   
 }
 
 #config {
@@ -21,12 +23,9 @@ body {
     font-size: 18pt;
 
     margin: 50px 5px 5px;
-
-    
 }
 
 #configenero {
-    
     align-items: center;
     margin: 20px;
 }
@@ -102,6 +101,18 @@ body {
     font-family: "Press Start 2P", system-ui;
 
     margin: 25px 150px;
+
+    transition: background 0.5s ease-in-out;
+    transition: color 0.5s ease-out;
+}
+
+#calcular:hover {
+    background: #c0d6df;
+    border: #c0d6df 1px solid;
+    border-radius: 18px;
+
+    color: #4f6d7a;
+    font-size: 9pt;
 }
 
 #result {
@@ -110,15 +121,78 @@ body {
     border-radius: 18px;
 
     height: 300px;
-    width: 310%;
+    width: 280%;
+    max-width: 65vw;
+
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 20pt;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 500;
+
+    line-height: 1.5;
 }
 
-#result h2 {
+#result::placeholder {
     color: #fff;
-    padding: 10px 20px;
-    
+    padding: 5px 5px;
+    font-size: 20pt;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
 }
 
 footer p {
     text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.5s ease;
+}
+
+footer p a:hover {
+    color: #4f6d7a;
+}
+
+@media only screen and (max-width: 850px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap: 25px;   
+        align-items: center;
+    }
+    
+    #config {
+        background: #4a6fa5;
+        color: #ffffff;
+        width: 80vw;
+        
+        border: #4a6fa5 1px solid;
+        border-radius: 18px;
+
+        margin: 20px;
+    }
+
+    #config h3 {
+        text-align: center;
+        font-size: 18pt;
+    
+        margin: 30px 5px 5px;
+    }
+
+    #female, #masculine {
+        width: 20px;
+        height: 20px;
+
+        display: inline-block;
+    }
+
+    #configenero label {
+        font-size: 16pt;
+
+        
+        line-height: 1.5;
+    }
 }
