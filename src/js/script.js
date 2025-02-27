@@ -38,17 +38,17 @@ function calcularGET() {
     document.querySelector('#result').value = `Suas calorias necessárias para ganhar peso são de ${GET.toFixed(2)} kcal`
 
     if (GET == 0 || bodyWeight == 0 || Height == 0 || Age == 0 ) {
-        document.querySelector('#result').value = 'Falta informação'
+        document.querySelector('#result').value = 'Falta de informação'
     }
 }
 
 if (window.matchMedia("(max-width: 850px)").matches) {
-    let tagBrChild = document.querySelector('#tagbr')
     let tagBr = document.createElement('br')
     tagBr.id = 'brtag'
+    let tagBrChild = document.querySelector('#tagbr')
     tagBrChild.appendChild(tagBr)
-
-  } else {
+    
+} else {
     let tagBrChild = document.querySelector('#tagbr')
     let brTag = document.querySelector('#brtag')
     tagBrChild.remove(brTag)
