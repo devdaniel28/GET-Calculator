@@ -195,4 +195,12 @@ footer p a:hover {
         
         line-height: 1.5;
     }
+
+    #calcular {
+        margin: 25px 50px;
+    }
+
+    .maintitle {
+        font-size: 18pt;
+    }
 }
